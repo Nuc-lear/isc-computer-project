@@ -1,8 +1,8 @@
 class Kaprekar_Number 
-{   
+{//start of class   
     static boolean kaprekar(int n)   
     {   
-        if (n == 1)   
+        if (n == 1)//checking   
             return true;   
         int sq_n = n * n;
         int copy=sq_n;
@@ -25,7 +25,7 @@ class Kaprekar_Number
     }       
     static int s=0;
     public static void main (String[] args)   
-    {   
+    {//start of main()   
         System.out.print("The Karpekar Numbers from 1 to 1000 are : ");
         for (int i=1; i<1000; i++)   
             if (kaprekar(i))   {
@@ -34,5 +34,5 @@ class Kaprekar_Number
             }
         System.out.println("                                             ");
         System.out.println("Sum of all Karpekar Numbers from 1 to 1000 : "+s);
-    }
-}      
+    }//end of main()
+}//end of class      
