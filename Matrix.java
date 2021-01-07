@@ -23,7 +23,7 @@ class Matrix
         {
             for(int j=0;j<n;j++)//inner loop
             {
-                if(i<=j)//checking 
+                if(i<=j)//checking
                     System.out.print(ar[i][j]+"\t");
                 else
                     System.out.print("\t");

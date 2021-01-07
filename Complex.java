@@ -1,7 +1,7 @@
 import java.util.*;
 class Complex
-{
-    int x,y;
+{//start of class
+    int x,y;//initialize
     Complex()
     {
         x=0;
@@ -29,7 +29,7 @@ class Complex
             System.out.println(x+" -i"+Math.abs(y));
     }
     public static void main()
-    {
+    {//start of main()
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the real and imaginary part : ");
         int x1=sc.nextInt();
@@ -47,5 +47,5 @@ class Complex
         C2.display();
         System.out.println("Final Complex Number : ");
         C3.display();
-    }
-}
+    }//end of main()
+}//end of class
