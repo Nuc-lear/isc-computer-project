@@ -1,4 +1,4 @@
-class Kaprekar_Number 
+class Kaprekar_Number_2
 {//start of class   
     static boolean kaprekar(int n)   
     {   
