@@ -14,7 +14,7 @@ class Insertion_Sort_Technique
         {
             int t=a[i];
             int j=i-1;
-            while(j>=0 && t<a[j])
+            while(j>=0 && t<a[j])//checking
             {
                 a[j+1]=a[j];
                 j--;

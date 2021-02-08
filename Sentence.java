@@ -5,7 +5,7 @@ class Sentence
     {//start of main()   
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the sentence ");
-        String s=sc.nextLine();
+        String s=sc.nextLine();//to accept a sentence from user
         int l=s.length();//length of the sentence 
         char lc=s.charAt(l-1);//extract last character
         if(lc=='.')
