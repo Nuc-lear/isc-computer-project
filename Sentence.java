@@ -1,14 +1,13 @@
 import java.util.*;
-class Prob6
+class Sentence
 {//start of class   
-
     public static void main (String[] args)   
     {//start of main()   
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the sentence ");
         String s=sc.nextLine();
         int l=s.length();//length of the sentence 
-        char lc=s.charAt(l-1);// extract last character
+        char lc=s.charAt(l-1);//extract last character
         if(lc=='.')
         {
             s=s.substring(0,l-1);// remove last character
@@ -47,7 +46,6 @@ class Prob6
             r=r.trim();
             r=r+lc;
             System.out.println("\n"+r);
-           
         }
 
         else
