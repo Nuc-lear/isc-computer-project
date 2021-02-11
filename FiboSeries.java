@@ -18,14 +18,13 @@ class FiboSeries
         while(true)
         {
             b=fibo(a);
-            if(b<=n)
+            if(b<=n)//checking
             {
               System.out.println(b);
               
             }
             else
              break;
-             
             a++;
         }
     }//end of main()

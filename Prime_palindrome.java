@@ -44,7 +44,7 @@ class  Prime_palindrome
 
         for(int i=1;i<=n;i++)//start of for loop
         {
-            System.out.print("Enter Number ");
+            System.out.print("Enter Number : ");
             int num=sc.nextInt();
             pw.println(num);
         }//end of for loop
@@ -63,8 +63,8 @@ class  Prime_palindrome
                 pal=pal+num+" ";
         }//end of for loop
         br.close();
-        System.out.println("Prime Numbers "+pr);
-        System.out.println("Palindrome Numbers "+pal);
+        System.out.println("Prime Numbers : "+pr);
+        System.out.println("Palindrome Numbers : "+pal);
 
     }//end of main()
 }//end of class

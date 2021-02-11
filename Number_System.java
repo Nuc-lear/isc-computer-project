@@ -12,7 +12,7 @@ class Number_System
     {//to convert binary number to decimal number
 
         if(n==0)
-            System.out.print("Decimal Number "+s);
+            System.out.print("Decimal Number : "+s);
         else
         {
             int d=n%10;
@@ -27,7 +27,7 @@ class Number_System
     public void  deci_bin(int n)
     {//to convert decimal number to binary number
         if(n==0)//0
-            System.out.print("Binary Number ");
+            System.out.print("Binary Number : ");
         else
         {
             int d=n%2;
