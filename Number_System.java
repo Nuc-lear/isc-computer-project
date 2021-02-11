@@ -38,7 +38,7 @@ class Number_System
     }
 
     public static void main()
-    {//start of main() method
+    {//start of main()
         Scanner sc= new Scanner(System.in);
         Number_System ob= new Number_System();
         System.out.println("1 for Binary to Decimal ");
@@ -66,5 +66,5 @@ class Number_System
             default:
             System.out.println("Wrong choice ");
         }
-    }//end of main() method
+    }//end of main()
 }//end of class

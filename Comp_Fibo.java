@@ -1,7 +1,7 @@
 import java.util.*;
 class Comp_Fibo
-{
-    static int n;
+{//start of class
+    static int n;//initialize
     Comp_Fibo()//class declaration
     {
         n=0;
@@ -12,7 +12,7 @@ class Comp_Fibo
         int i;
         for(i=2;i<n;i++)
         {
-            if(n%i==0)
+            if(n%i==0)//checking
 
                 return true;
         }
@@ -35,13 +35,13 @@ class Comp_Fibo
     }
 
     public static void main()
-    {
+    {//start of main
         Scanner sc= new Scanner(System.in);
         System.out.println();
         Comp_Fibo ob=new Comp_Fibo();//object creation
         System.out.println("Enter value of n:");
         n=sc.nextInt();
-        int i,b;boolean a;
+        int i,b;boolean a;//initialize
         System.out.println("Composite fibonacci numbers are:");
         for(i=1;i<=n;i++)//no generation between 1 & n
         {
@@ -50,5 +50,5 @@ class Comp_Fibo
             if(a==true && b==1)
                 ob.display(i);
         }
-    }
+    }//end of main()
 }//end of class

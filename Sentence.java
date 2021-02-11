@@ -29,7 +29,7 @@ class Sentence
             for(int i=0;i<s.length();i++)
             {
                 char ch=s.charAt(i);//extract each character
-                if(ch!=' ')
+                if(ch!=' ')//checking
                 {
                     w=w+ch;
                     rw=ch+rw;
