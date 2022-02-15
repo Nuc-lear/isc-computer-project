@@ -1,15 +1,30 @@
-# Class XI Project
-<p align="right">                              
-<img src="https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png" height=50>
-</p>
+<div align=center>
 
-**Languages Used:**
+<br>
 
-![](https://img.shields.io/badge/Java-informational?style=flat-square&logo=java&logoColor=white&color=2bbc8a)
+# **Class XI Project**
 
+![Java](https://img.shields.io/badge/Java-informational?style=flat&logo=java&logoColor=white&color=007396)
+![VS Code](https://img.shields.io/badge/VS_Code-informational?style=flat&logo=visual-studio-code&logoColor=white&color=007ACC)
 
+### Collection of Java programs of Class XI students of ISC.
 
-<p align="center">
-  Made with :heart: and Java</br>
-</p>
-by uiuxarghya
+</div>
+
+<br>
+
+<div align=center>
+
+| **Sl. No.** | **Name** | **Path**     | **Total No of Programs** |
+| :---------: | :------- | :----------- | :----------------------: |
+|     1.      | Name     | [Path](path) |            -             |
+
+</div>
+
+<br/>
+
+<div align=center>
+
+Made with ❤️ by [Arghya Ghosh](https://twitter.com/uiuxarghya)
+
+</div>
