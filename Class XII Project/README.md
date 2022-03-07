@@ -23,6 +23,23 @@
 
 <br/>
 
+## Semister 1 Programs
+
+1. BinarySearch.java
+2. BouncyNumber.java
+3. Combine.java
+4. Date.java
+5. Denomination.java
+6. Keith_number.java
+7. NumericCode.java
+8. Paragraph.java
+9. Paragraph2.java
+10. Queue.java
+11. SaddlePoint.java
+12. Smith_Number.java
+13. Stack.java
+14. Stacking.java
+
 ## Semister 2 Programs
 
 - [x] 1. [Worker](Worker.java)
