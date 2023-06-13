@@ -1,10 +1,10 @@
 /*
- * Name: ARGHYA GHOSH
+ * Name: Rishabh Kumar
  * Class: XII
  * Section: Science - A
- * Roll No: 16
- * UID: 7083810
- * Session: 2021-2022
+ * Roll No: 38
+ 
+ * Session: 2022-2023
 */
 import java.util.*;
 class BinarySearch
